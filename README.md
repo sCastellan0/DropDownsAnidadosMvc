@@ -1,6 +1,6 @@
 # DropDownsAnidadosMvc
 
-Proyecto ASP.NET MVC con **dropdowns anidados** (cascada) para gestión de productos. La selección de **Categoría** filtra **Sucursales** y **Productos** vía AJAX.
+Proyecto ASP.NET MVC con **dropdowns anidados** 
 
 ## Características
 
@@ -34,29 +34,8 @@ Proyecto ASP.NET MVC con **dropdowns anidados** (cascada) para gestión de produ
 
 # Estructura del Proyecto
 
-Controllers/
-├── HomeController.cs          # Página principal
-├── ProductosController.cs     # CRUD Productos + AJAX endpoints
-└── MigracionesController.cs   
+<img width="298" height="257" alt="image" src="https://github.com/user-attachments/assets/ee682f4c-7290-4a62-a5c5-80650a617056" />
 
-## Models
-Models/
-├── Categoria.cs               # Modelo Categoría
-├── Sucursal.cs                # Modelo Sucursal  
-├── Producto.cs                # Modelo Producto principal
-└── DropDownVM.cs              # ViewModel para dropdowns
-## Views
-Views/
-├── Home/
-│   └── Index.cshtml
-├── Productos/
-│   ├── Create.cshtml         # Crear con dropdowns anidados
-│   ├── Delete.cshtml
-│   ├── Details.cshtml
-│   ├── Edit.cshtml
-│   └── Index.cshtml          # Listado productos
-└── Shared/
-    └── _Layout.cshtml
 
 
 
